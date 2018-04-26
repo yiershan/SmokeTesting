@@ -1,0 +1,19 @@
+{
+  "name": "smoketesting",
+  "version": "0.0.1",
+  "description": "自动冒烟测试脚本。嵌入web站点使用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiershan/SmokeTesting.git"
+  },
+  "author": "yiershan <511176294@qq.com> (https://www.jianshu.com/u/8afb7e623b70)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yiershan/SmokeTesting/issues"
+  },
+  "homepage": "https://github.com/yiershan/SmokeTesting#readme"
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JS/smoketesting.js"></script>
+</head>
+
+<body>
+<script>
+    $(function () {
+        var _config = {
+            url:[{
+                name: '首页',
+                url:'index.html',
+                selector:{
+                    query:'a',
+                    attr:'href'
+                }
+            },{
+                url:'index.html',
+                selector:{
+                    query:'.footer span',
+                    attr:'html'
+                }
+            }]
+        };
+        SmokeTest.Init(_config);
+        SmokeTest.Start();
+    })
+</script>
+
+</body>
+</html>
