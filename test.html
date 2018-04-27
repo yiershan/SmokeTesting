@@ -15,7 +15,7 @@
                 name: '首页',
                 url:'index.html',
                 selector:{
-                    query:'a',
+                    query:'spa',
                     attr:'href'
                 }
             },{
@@ -24,7 +24,38 @@
                     query:'.footer span',
                     attr:'html'
                 }
-            }]
+            },{
+                url:'index.html',
+                selector:{
+                    query:'.footer span',
+                    attr:'html'
+                }
+            },{
+                url:'index.html',
+                selector:{
+                    query:'.footer span',
+                    attr:'html'
+                }
+            },{
+                url:'index.html',
+                selector:{
+                    query:'.footer span',
+                    attr:'html'
+                }
+            },{
+                url:'index.html',
+                selector:{
+                    query:'.footer span',
+                    attr:'html'
+                }
+            },{
+                url:'index.html',
+                selector:{
+                    query:'.footer span',
+                    attr:'html'
+                }
+            }],
+            error: 1
         };
         SmokeTest.Init(_config);
         SmokeTest.Start();
