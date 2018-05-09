@@ -43,7 +43,7 @@ var SmokeTest = (function ($) {
             })
         },
         isend = function () {
-            if (index === len) {
+            if (index === len&&len!=0) {
                 console.log('执行完毕。');
                 console.log('链接成功数量：'+c);
                 console.log('页面正确数量：'+s);
