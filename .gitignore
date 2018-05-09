@@ -1,2 +1,4 @@
 #webstrom
 .idea
+#modules
+node_modules
