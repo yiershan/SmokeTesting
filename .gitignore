@@ -2,3 +2,9 @@
 .idea
 #modules
 node_modules
+#dist
+dist
+src/*.js
+src/*.d.ts
+*.js
+*.d.ts

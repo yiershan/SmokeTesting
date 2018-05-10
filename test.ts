@@ -1,4 +1,4 @@
-import {SmokeTest,SmokeConfig} from "./smoke-test";
+import {SmokeTest,SmokeConfig} from "./index";
 
 const config = new SmokeConfig();
 config.url = [{
