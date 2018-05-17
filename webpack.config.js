@@ -1,4 +1,4 @@
-
+var webpack = require('webpack')
 module.exports = {
     entry: {
         index: './index.js',
@@ -6,5 +6,8 @@ module.exports = {
     },
     output: {
         filename: '[name].js'
+    },
+    externals: {
+        jquery: 'window.jQuery'
     }
 };
