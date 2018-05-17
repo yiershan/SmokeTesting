@@ -1,6 +1,6 @@
 {
   "name": "smoketesting",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "自动冒烟测试脚本。嵌入web站点使用",
   "main": "index.js",
   "scripts": {
