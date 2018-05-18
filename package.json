@@ -4,7 +4,8 @@
   "description": "自动冒烟测试脚本。嵌入web站点使用",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "webpack mode=development"
   },
   "files": [
     "index.js",
@@ -28,5 +29,9 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "webpack": "^4.8.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3"
   }
 }
